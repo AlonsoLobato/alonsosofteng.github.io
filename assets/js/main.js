@@ -125,7 +125,8 @@
 			$titleBar = $(
 				'<div id="titleBar">' +
 					'<a href="#header" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + '</span>' +
+					// '<span class="title">' + $('#logo').html() + '</span>' + // the value of $('#logo').html() is undefined, which gets printed in the titleBar...
 				'</div>'
 			)
 				.appendTo($body);
