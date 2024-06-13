@@ -2672,7 +2672,7 @@ input, select, textarea {
 			display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			width: 48%;
+			width: 0%;
 			padding-left: 2.5em;
 		}
 
@@ -2684,7 +2684,7 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 100%;
 		}
 
 			.features article .inner > :last-child {
@@ -2706,15 +2706,25 @@ input, select, textarea {
 			font-size: 1.1em;
 			font-style: italic;
 			text-decoration: underline;
+		}
+		
+		.features article .inner h7 {
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			font-weight: 600;
+			font-size: 1.5em;
+			font-size: 1.1em;
 		}	
 
 		.features article .inner p {
 			margin-top: 1em;
+			margin-bottom: 1em;
 			font-size: 1.2em;
 		}	
 
 		.features article .inner li {
-			margin-top: 1em;
+			margin-top: 0.5em;
 			font-size: 1.2em;
 		}	
 
